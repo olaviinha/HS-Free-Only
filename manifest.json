@@ -1,0 +1,21 @@
+{
+    "name": "HS.fi Free-Only",
+    "version": "0.0.1",
+    "description": "Hide all paid content",
+    "author": "O. Inha",
+    "permissions": ["tabs", "activeTab"],
+    "content_scripts": [
+        {
+          "matches": ["*://*.hs.fi/*"],
+          "css": ["hs-free.css"],
+          "js": ["content_script.js"],
+          "run_at" : "document_end",
+          "all_frames": true
+        }
+    ],
+    "action": {},
+    "host_permissions": [
+      "*://*.hs.fi/*"
+    ],
+    "manifest_version": 3
+}
