@@ -19,6 +19,14 @@ const hidePaidContent = () => {
       el.classList.add('hspaid-'+css_class);
     }
   });
+  const top_stuff = [...document.querySelectorAll('*')].filter((el) => {
+    return Array.from(el.classList).some((cls) => {
+      return cls.startsWith('ticker-') && cls.endsWith('-paid');
+    });
+  });
+  top_stuff.forEach((el) => {
+    el.classList.add('hspaid-'+css_class);
+  });  
 }
 
 const observer = new MutationObserver((mutations) => {
