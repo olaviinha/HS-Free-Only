@@ -1,6 +1,6 @@
 {
     "name": "HS.fi Free-Only",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Hide all paid content",
     "author": "O. Inha",
     "permissions": ["tabs", "activeTab"],
