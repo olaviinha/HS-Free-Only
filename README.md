@@ -1,6 +1,6 @@
 # HS.fi Free-Only
 
-Browser extension to hide all content in HS.fi that leads to paywall instead of readable content. I.e. hides all "💎​​ Tilaajille" links and articles. Also hides most ads. The purpose of this extension is to make user experience tolerable for users who are unable to subscribe.
+Browser extension to hide (almost) all content in HS.fi that leads to paywall instead of readable content. I.e. hides all "💎​​ Tilaajille" links and articles. Also hides most ads. The purpose of this extension is to make user experience tolerable for users who are unable to subscribe.
 
 Should work in all modern browsers.
 
