@@ -17,4 +17,4 @@ If you're using another browser, google "_your browser_ load unpacked extension"
 ---
 
 ![image](https://github.com/user-attachments/assets/f1579754-0d69-4d64-8988-a2275f78822c)
-_Zero diamond-content, zero ads_
+_Near zero diamond-content, zero ads_
