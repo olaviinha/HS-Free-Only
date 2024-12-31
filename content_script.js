@@ -1,12 +1,11 @@
-const css_class = 'remove';
-const html = document.querySelector('html');
+const css_class = 'remove'; // For possible future use cases (disable, dim, minimize, etc.)
 
 const hidePaidContent = () => {
   document
   .querySelectorAll('[data-testid="main-lane-container"] article')
   .forEach((article) => {
-    const paidIndicators = article.querySelectorAll('.paid-indicator');
-    paidIndicators.forEach((indicator) => {
+    const paid_indicators = article.querySelectorAll('.paid-indicator');
+    paid_indicators.forEach((indicator) => {
       if (indicator.closest('article') !== article) return;
       if (indicator.closest('.related-articles')) {
         indicator.closest('.related-articles__link').classList.add('hspaid-'+css_class);
