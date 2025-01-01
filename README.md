@@ -13,7 +13,8 @@ If you're not using Chrome, follow steps 1-2 and then google "_your browser_ loa
 3. In Chrome, go to address `chrome://extensions`
 4. Enable _Developer mode_ from upper right corner.
 5. Click the _Load Unpacked_ button and select the directory `HS-Free-Only` (from the extracted ZIP).
-6. 
+
+
 ---
 
 ![image](https://github.com/user-attachments/assets/eb018a1c-98ec-42e1-bd5b-9d3752d0c5e8)
